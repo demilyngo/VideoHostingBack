@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "298346k29430602c",
+  "database": "videohosting",
+  "synchronize": true,
+  "entities": ["src/entity/*.js"],
+  "subscribers": ["src/subscriber/*.js"],
+  "migrations": ["src/migration/*.js"],
+  "cli": {
+    "entitiesDir": "src/entity",
+    "migrationsDir": "src/migration",
+    "subscribersDir": "src/subscriber"
+  }
+}
